@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#212529"/>
+      <stop offset="50%" stop-color="#2d3238"/>
+      <stop offset="100%" stop-color="#15181a"/>
+    </linearGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#D4AF37" stroke-width="0.4" opacity="0.15"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <!-- Stylized garage door arch -->
+  <path d="M 200 720 L 200 400 Q 200 200 400 200 L 1200 200 Q 1400 200 1400 400 L 1400 720 Z"
+        fill="none" stroke="#D4AF37" stroke-width="3" opacity="0.5"/>
+  <!-- Floor line -->
+  <line x1="0" y1="720" x2="1600" y2="720" stroke="#D4AF37" stroke-width="2" opacity="0.4"/>
+  <!-- Car silhouette -->
+  <g transform="translate(560 460)" opacity="0.85">
+    <path d="M 40 180 L 100 80 Q 140 50 200 50 L 320 50 Q 380 50 420 80 L 480 180 L 480 220 L 40 220 Z"
+          fill="#2d3238" stroke="#D4AF37" stroke-width="2"/>
+    <rect x="120" y="80" width="280" height="60" fill="#15181a" stroke="#D4AF37" stroke-width="1.5" rx="4"/>
+    <line x1="260" y1="80" x2="260" y2="140" stroke="#D4AF37" stroke-width="1.5"/>
+    <circle cx="140" cy="220" r="40" fill="#15181a" stroke="#D4AF37" stroke-width="3"/>
+    <circle cx="140" cy="220" r="20" fill="#212529"/>
+    <circle cx="380" cy="220" r="40" fill="#15181a" stroke="#D4AF37" stroke-width="3"/>
+    <circle cx="380" cy="220" r="20" fill="#212529"/>
+  </g>
+  <!-- Wrench icon top-right corner -->
+  <g transform="translate(1340 80)" opacity="0.6" stroke="#D4AF37" stroke-width="2" fill="none">
+    <circle cx="40" cy="40" r="30"/>
+    <line x1="40" y1="70" x2="40" y2="120"/>
+    <line x1="20" y1="100" x2="60" y2="100"/>
+  </g>
+</svg>

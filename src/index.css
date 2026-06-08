@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-white: #FFFFFF;
+  --color-brand-light: #F8F9FA;
+  --color-brand-dark: #212529;
+  --color-brand-gold: #D4AF37;
+  --color-brand-orange: #F39C12;
+  --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+}
+
+/* Global Reset & Custom CSS Variables requested */
+:root {
+  --color-white: #FFFFFF;
+  --color-light-gray: #F8F9FA;
+  --color-anthracite: #212529;
+  --color-gold: #D4AF37;
+  --color-gold-orange: #F39C12;
+  --font-family-base: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-white);
+  color: var(--color-anthracite);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar styled with metallic-gold details */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-light-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold-orange);
+}
+
+/* Custom Geometric Balance Helper Classes */
+.geometric-bg-pattern {
+  background: linear-gradient(135deg, transparent 75%, rgba(212, 175, 55, 0.08) 75%),
+              linear-gradient(225deg, transparent 75%, rgba(212, 175, 55, 0.08) 75%);
+  background-size: 40px 40px;
+}
+
+.geometric-line-indicator {
+  width: 40px;
+  height: 4px;
+  background-color: var(--color-gold);
+}
+
+.geometric-line-dark {
+  width: 40px;
+  height: 4px;
+  background-color: var(--color-anthracite);
+}

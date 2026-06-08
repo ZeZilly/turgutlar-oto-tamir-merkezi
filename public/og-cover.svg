@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="ogbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#212529"/>
+      <stop offset="100%" stop-color="#15181a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogbg)"/>
+  <rect x="40" y="40" width="1120" height="550" fill="none" stroke="#D4AF37" stroke-width="3"/>
+  <!-- Logo block -->
+  <g transform="translate(100 180)">
+    <rect width="120" height="120" fill="#212529" stroke="#D4AF37" stroke-width="3"/>
+    <text x="60" y="85" font-family="Montserrat, Arial, sans-serif" font-size="64" font-weight="900" fill="#D4AF37" text-anchor="middle">T</text>
+  </g>
+  <text x="240" y="220" font-family="Montserrat, Arial, sans-serif" font-size="56" font-weight="900" fill="#FFFFFF" letter-spacing="2">TURGUTLAR</text>
+  <text x="240" y="265" font-family="Montserrat, Arial, sans-serif" font-size="20" font-weight="700" fill="#D4AF37" letter-spacing="6">OTO TAMİR MERKEZİ</text>
+  <line x1="100" y1="320" x2="1100" y2="320" stroke="#D4AF37" stroke-width="2"/>
+  <text x="100" y="400" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">Adana'nın Güvenilir Oto Tamir</text>
+  <text x="100" y="450" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF">ve Hasar Onarım Merkezi</text>
+  <text x="100" y="520" font-family="Montserrat, Arial, sans-serif" font-size="18" font-weight="600" fill="#D4AF37" letter-spacing="3">Seyhan · Adana · Anlaşmalı Sigortalar · 1 Yıl Garanti</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F8F9FA"/>
+      <stop offset="100%" stop-color="#E9ECEF"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#bg)"/>
+  <!-- Building structure -->
+  <g>
+    <rect x="80" y="120" width="740" height="500" fill="#212529" stroke="#000" stroke-width="3"/>
+    <rect x="80" y="120" width="740" height="80" fill="#D4AF37"/>
+    <text x="450" y="170" font-family="Montserrat, Arial, sans-serif" font-size="32" font-weight="900" fill="#212529" text-anchor="middle" letter-spacing="6">TURGUTLAR</text>
+    <!-- Garage doors -->
+    <g>
+      <rect x="120" y="240" width="180" height="340" fill="#15181a" stroke="#000" stroke-width="2"/>
+      <line x1="120" y1="280" x2="300" y2="280" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="320" x2="300" y2="320" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="360" x2="300" y2="360" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="400" x2="300" y2="400" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="440" x2="300" y2="440" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="480" x2="300" y2="480" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="520" x2="300" y2="520" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="120" y1="560" x2="300" y2="560" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+    </g>
+    <g>
+      <rect x="360" y="240" width="180" height="340" fill="#15181a" stroke="#000" stroke-width="2"/>
+      <line x1="360" y1="280" x2="540" y2="280" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="320" x2="540" y2="320" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="360" x2="540" y2="360" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="400" x2="540" y2="400" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="440" x2="540" y2="440" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="480" x2="540" y2="480" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="520" x2="540" y2="520" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+      <line x1="360" y1="560" x2="540" y2="560" stroke="#D4AF37" stroke-width="1" opacity="0.6"/>
+    </g>
+    <g>
+      <rect x="600" y="240" width="180" height="340" fill="#15181a" stroke="#000" stroke-width="2"/>
+      <rect x="630" y="270" width="120" height="120" fill="#212529" stroke="#D4AF37" stroke-width="1.5"/>
+      <text x="690" y="350" font-family="Montserrat, Arial, sans-serif" font-size="40" font-weight="900" fill="#D4AF37" text-anchor="middle">TO</text>
+      <rect x="630" y="410" width="120" height="50" fill="#212529" stroke="#D4AF37" stroke-width="1.5"/>
+      <text x="690" y="442" font-family="Montserrat, Arial, sans-serif" font-size="14" font-weight="700" fill="#D4AF37" text-anchor="middle" letter-spacing="2">SERVİS</text>
+    </g>
+  </g>
+  <!-- Ground -->
+  <rect x="0" y="620" width="900" height="55" fill="#212529"/>
+  <line x1="0" y1="620" x2="900" y2="620" stroke="#D4AF37" stroke-width="2"/>
+  <!-- Side accents -->
+  <line x1="60" y1="80" x2="60" y2="640" stroke="#D4AF37" stroke-width="3"/>
+  <line x1="840" y1="80" x2="840" y2="640" stroke="#D4AF37" stroke-width="3"/>
+</svg>
