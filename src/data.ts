@@ -164,6 +164,66 @@ export const WORKING_HOURS = {
   sunday: 'Kapalı'
 };
 
+/**
+ * Gerçek anlaşmalı sigorta şirketleri — kapı tabelasından ve marka kimliğinden derlendi.
+ * Header'daki marquee bandı ve InsuranceSection bunu kullanır.
+ */
+export const INSURANCE_BADGES: { name: string; short: string; accent: string }[] = [
+  { name: 'Allianz', short: 'Allianz', accent: '#003781' },
+  { name: 'Anadolu Sigorta', short: 'Anadolu', accent: '#E30613' },
+  { name: 'AK Sigorta', short: 'AK', accent: '#003594' },
+  { name: 'MAPFRE Sigorta', short: 'MAPFRE', accent: '#D32F2F' },
+  { name: 'Sompo Sigorta', short: 'Sompo', accent: '#E53935' },
+  { name: 'Quick Sigorta', short: 'Quick', accent: '#FBC02D' },
+  { name: 'HDI Sigorta', short: 'HDI', accent: '#1B4F72' },
+  { name: 'ERGO Sigorta', short: 'ERGO', accent: '#D81B60' },
+  { name: 'Güneş Sigorta', short: 'Güneş', accent: '#F57C00' },
+  { name: 'SÜNEP Sigorta', short: 'SÜNEP', accent: '#0D47A1' },
+  { name: 'NURSTU Sigorta', short: 'NURSTU', accent: '#37474F' },
+  { name: 'Ziraat Sigorta', short: 'Ziraat', accent: '#1B5E20' }
+];
+
+/**
+ * Tabela üzerindeki hizmet satırları — Header'da tag chip'leri olarak gösterilir,
+ * Hero'da da kullanılabilir.
+ */
+export const SERVICE_TAGS: string[] = [
+  'Profesyonel Mekanik',
+  'Elektrik Onarım',
+  'Periyodik Bakım',
+  'Kaporta & Boya',
+  'Gelişmiş Arıza Tespit',
+  'Motor Revizyonu',
+  'Şanzıman Tamiri',
+  'Fren Sistemleri'
+];
+
+/**
+ * Kapı tabelasının sol alt köşesindeki müşteri vaatleri.
+ * Header üst barında ve Hero trust strip'inde kullanılır.
+ */
+export const PROMISES: { icon: 'shield' | 'clock' | 'tag' | 'check'; text: string }[] = [
+  { icon: 'shield', text: 'Tüm Kasko & Trafik Sigortaları İle Anlaşma' },
+  { icon: 'clock', text: 'Hızlı Hasar Dosyası Takibi' },
+  { icon: 'tag', text: 'Hesaplı ve Güvenilir Tamir' },
+  { icon: 'check', text: 'Orijinal Yedek Parça Garantisi' }
+];
+
+/**
+ * Sık kullanılan navigasyon bağlantıları.
+ * Header'da hem desktop hem mobile drawer'da gösterilir.
+ */
+export const NAV_LINKS: { label: string; id: string; section?: string }[] = [
+  { label: 'Ana Sayfa', id: 'root' },
+  { label: 'Hakkımızda', id: 'hakkimizda' },
+  { label: 'Hizmetler', id: 'hizmetler' },
+  { label: 'Hasar & Sigorta', id: 'hasar-sigorta' },
+  { label: 'Hasar Sorgula', id: 'hasar-durumu' },
+  { label: 'Yorumlar', id: 'yorumlar' },
+  { label: 'SSS', id: 'sss' },
+  { label: 'İletişim', id: 'iletisim' }
+];
+
 export const CONTACT_INFO = {
   // Görüntülenecek formatlı telefon numarası
   phone: '+90 532 123 45 67',
